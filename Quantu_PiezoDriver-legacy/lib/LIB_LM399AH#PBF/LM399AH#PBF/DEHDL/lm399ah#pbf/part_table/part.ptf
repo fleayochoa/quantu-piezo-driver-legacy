@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM399AH#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LM399AH#PBF" (!) = "", "LM399AHPBF", "Other", "584-LM399AH#PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LM399AHPBF?qs=ytflclh7QUUM8sawX7U9qQ%3D%3D", "V-Ref Precision 6.95V 10mA 4-Pin TO-46 Tray", "https://www.analog.com/media/en/technical-documentation/data-sheets/199399fc.pdf", "2.667 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM399AH#PBF
+D V-Ref Precision 6.95V 10mA 4-Pin TO-46 Tray
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/199399fc.pdf
+$ENDCMP
+#
+#End Doc Library

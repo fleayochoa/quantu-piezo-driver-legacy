@@ -1,0 +1,16 @@
+.R15-100B :1 ;Recom 5W Isolated DC-DC Converter, Vin 14  17 V dc, Vout 55  135V dc, I/O isolation 3000V dc
+R15100B
+*STM PS
+*NGS
+*PLB 2="-VIN_1" 3="-VIN_2" 8="VADJ._1" 9="V REF_1" 10="-VOUT_1" 12="+VOUT_1" 13="+VOUT_2" 15="-VOUT_2" 16="V REF_2" 17="VADJ._2" 22="+VIN_1" 23="+VIN_2"
+*MXP 12
+*DFN R15-100B
+~!Mouser Part Number (919-R15-100B)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/RECOM-Power/R15-100B?qs=3sBZtWOgbidQ9DaE4LFYPA%3D%3D)
+~!Manufacturer_Name (RECOM Power)
+~!Manufacturer_Part_Number (R15-100B)
+~!Link Datasheet (https://recom-power.com/pdf/Innoline/Rxx-B.pdf)
+~!Height (9.9mm)
+~!3D_Model (R15-100B)
+R15-100B
+2.1!U 3.1!U 8.1!U 9.1!U 10.1!U 12.1!U 13.1!U 15.1!U 16.1!U 17.1!U 22.1!U 23.1!U 

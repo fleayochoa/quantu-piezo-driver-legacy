@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM399AH_PBF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-02-24-12:07:24)
+    (mountForm default
+        (footprintRef "LM399AHPBF")
+        (spec "System")
+    )
+)

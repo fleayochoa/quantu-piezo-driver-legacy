@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'R15_100B'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RECOM Power", "R15-100B" (!) = "", "R15100B", "Other", "919-R15-100B", "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R15-100B?qs=3sBZtWOgbidQ9DaE4LFYPA%3D%3D", "Recom 5W Isolated DC-DC Converter, Vin 14  17 V dc, Vout 55  135V dc, I/O isolation 3000V dc", "https://recom-power.com/pdf/Innoline/Rxx-B.pdf", "9.9 mm"
+END_PART
+
+END.

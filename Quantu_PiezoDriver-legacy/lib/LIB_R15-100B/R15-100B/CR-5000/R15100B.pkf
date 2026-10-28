@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "R15100B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "R15100B")
+        (spec "default")
+    )
+)

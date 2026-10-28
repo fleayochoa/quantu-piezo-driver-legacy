@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA445AU
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=4.1
+Released=2016-11-09 10:15:39
+Downloaded=2026-03-19 21:44:15
+3D=Y

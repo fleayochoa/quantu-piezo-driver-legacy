@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "UA79M05CKCS"
+   (description "1.5-A, -25-V, Negative Linear Voltage Regulators")
+   (family "ANA")
+   (package "TO254P470X1016X1965-3P")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/ua79m")
+   (attribute "Geometry.Height" "4.7mm")
+   (attribute "Mouser Part Number" "595-UA79M05CKCS")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA79M05CKCS?qs=vxEfx8VrU7Bl9DiJ%2FviIGA%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "UA79M05CKCS")
+   (gate
+    (symbol "UA79M05CKCS")
+    (pin "COMMON" 1 PS)
+    (pin "INPUT" 2 PS)
+    (pin "OUTPUT" 3 PS)
+   )
+  )
+  (symbol "UA79M05CKCS"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P470X1016X1965-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.89 3.275)
+      (pt 7.97 3.275)
+      (pt 7.97 -1.925)
+      (pt -2.89 -1.925)
+      (pt -2.89 3.275))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.64 3.025)
+      (pt 7.72 3.025)
+      (pt 7.72 -1.675)
+      (pt -2.64 -1.675)
+      (pt -2.64 3.025))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.64 1.755)
+      (pt -1.37 3.025))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.72 -1.675)
+      (pt 7.72 3.025)
+      (pt -2.64 3.025)
+      (pt -2.64 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.22)
+    (plated true)
+    (pad (layer TCOP) (round 1.83))
+    (pad (layer INNER) (round 1.83))
+    (pad (layer BCOP) (round 1.83))
+   )
+   (padstack 1
+    (hole 1.22)
+    (plated true)
+    (pad (layer TCOP) (square 1.83))
+    (pad (layer INNER) (round 1.83))
+    (pad (layer BCOP) (square 1.83))
+   )
+   (model "UA79M05CKCS.stp"
+    (euler 0 0 0)
+    (offset 2.5399999618530273 2.9600000381469727 0.10000000149011612)
+   )
+  )
+ )
+)

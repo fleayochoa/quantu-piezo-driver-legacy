@@ -1,0 +1,167 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "R15-100B"
+   (description "Recom 5W Isolated DC-DC Converter, Vin 14  17 V dc, Vout 55  135V dc, I/O isolation 3000V dc")
+   (family "ANA")
+   (package "R15100B")
+   (attribute "Datasheet Link" "https://recom-power.com/pdf/Innoline/Rxx-B.pdf")
+   (attribute "Geometry.Height" "9.9mm")
+   (attribute "Mouser Part Number" "919-R15-100B")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R15-100B?qs=3sBZtWOgbidQ9DaE4LFYPA%3D%3D")
+   (attribute "Manufacturer_Name" "RECOM Power")
+   (attribute "Manufacturer_Part_Number" "R15-100B")
+   (gate
+    (symbol "R15-100B")
+    (pin "-VIN_1" 2 PS)
+    (pin "-VIN_2" 3 PS)
+    (pin "VADJ._1" 8 PS)
+    (pin "V_REF_1" 9 PS)
+    (pin "-VOUT_1" 10 PS)
+    (pin "+VOUT_1" 12 PS)
+    (pin "+VOUT_2" 13 PS)
+    (pin "-VOUT_2" 15 PS)
+    (pin "V_REF_2" 16 PS)
+    (pin "VADJ._2" 17 PS)
+    (pin "+VIN_1" 22 PS)
+    (pin "+VIN_2" 23 PS)
+   )
+  )
+  (symbol "R15-100B"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "R15100B"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.6 17.47)
+      (pt 27.2 17.47)
+      (pt 27.2 -2.23)
+      (pt -4.6 -2.23)
+      (pt -4.6 17.47))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.6 17.47)
+      (pt 27.2 17.47)
+      (pt 27.2 -2.23)
+      (pt -4.6 -2.23)
+      (pt -4.6 17.47))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.6 18.47)
+      (pt 28.2 18.47)
+      (pt 28.2 -3.23)
+      (pt -5.6 -3.23)
+      (pt -5.6 18.47))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0 -2.7)
+      (arc (pt 0.000 -2.700) (pt -0.100 -2.900) (pt 0.100 -2.700) (start 180.0) (sweep 90.0))
+      (pt 0 -2.9)
+      (arc (pt 0.000 -2.900) (pt -0.100 -2.900) (pt 0.100 -2.700) (start 180.0) (sweep -90.0))
+      (pt 0 -2.7))))
+   (leg 2 (pt 0.000 0.000) (padstack 0))
+   (leg 3 (pt 2.540 0.000) (padstack 0))
+   (leg 8 (pt 15.240 0.000) (padstack 0))
+   (leg 9 (pt 17.780 0.000) (padstack 0))
+   (leg 10 (pt 20.320 0.000) (padstack 0))
+   (leg 12 (pt 25.400 0.000) (padstack 0))
+   (leg 13 (pt 25.400 15.240) (padstack 0))
+   (leg 15 (pt 20.320 15.240) (padstack 0))
+   (leg 16 (pt 17.780 15.240) (padstack 0))
+   (leg 17 (pt 15.240 15.240) (padstack 0))
+   (leg 22 (pt 2.540 15.240) (padstack 0))
+   (leg 23 (pt 0.000 15.240) (padstack 0))
+   (padstack 0
+    (hole 0.81)
+    (plated true)
+    (pad (layer TCOP) (round 1.316))
+    (pad (layer INNER) (round 1.316))
+    (pad (layer BCOP) (round 1.316))
+   )
+   (model "R15-100B.stp"
+    (euler 90 0 0)
+    (offset 11.300000190734863 7.619999885559082 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=AD8671ARMZ-REEL
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2025-01-07 11:29:04
+Downloaded=2026-03-19 21:46:07
+3D=Y

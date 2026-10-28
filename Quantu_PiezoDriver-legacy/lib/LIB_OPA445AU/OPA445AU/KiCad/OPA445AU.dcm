@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA445AU
+D Operational Amplifiers - Op Amps Hi Voltage FET-Input Op Amp
+K
+F http://www.ti.com/lit/ds/symlink/opa445.pdf
+$ENDCMP
+#
+#End Doc Library

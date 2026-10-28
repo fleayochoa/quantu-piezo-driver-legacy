@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UA79M05CKCS
+D 1.5-A, -25-V, Negative Linear Voltage Regulators
+K
+F http://www.ti.com/lit/gpn/ua79m
+$ENDCMP
+#
+#End Doc Library

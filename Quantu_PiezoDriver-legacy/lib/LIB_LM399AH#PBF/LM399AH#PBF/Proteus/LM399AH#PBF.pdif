@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LM399AH#PBF"
+   (description "V-Ref Precision 6.95V 10mA 4-Pin TO-46 Tray")
+   (family "ANA")
+   (package "LM399AHPBF")
+   (attribute "Datasheet Link" "https://www.analog.com/media/en/technical-documentation/data-sheets/199399fc.pdf")
+   (attribute "Geometry.Height" "2.667mm")
+   (attribute "Mouser Part Number" "584-LM399AH#PBF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LM399AHPBF?qs=ytflclh7QUUM8sawX7U9qQ%3D%3D")
+   (attribute "Manufacturer_Name" "Analog Devices")
+   (attribute "Manufacturer_Part_Number" "LM399AH#PBF")
+   (gate
+    (symbol "LM399AH#PBF")
+    (pin "+_1" 1 PS)
+    (pin "-_1" 2 PS)
+    (pin "+_2" 3 PS)
+    (pin "-_2" 4 PS)
+   )
+  )
+  (symbol "LM399AH#PBF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 400) (pt 800 400) (pt 800 -400) (pt 200 -400) (pt 200 400) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -600) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LM399AHPBF"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.448 -3.718)
+      (pt 4.988 -3.718)
+      (pt 4.988 3.718)
+      (pt -2.448 3.718)
+      (pt -2.448 -3.718))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.448 0)
+      (arc (pt -1.448 0.000) (pt -1.448 -2.718) (pt 3.988 2.718) (start 180.0) (sweep -180.0))
+      (pt 3.988 0)
+      (arc (pt 3.988 0.000) (pt -1.448 -2.718) (pt 3.988 2.718) (start 180.0) (sweep .0))
+      (pt -1.448 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.93 1.6)
+      (pt -1.33 2)
+      (pt -0.73 2.6)
+      (pt -0.33 2.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.93 1.6)
+      (pt -1.33 2)
+      (pt -0.73 2.6)
+      (pt -0.33 2.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.448 0)
+      (arc (pt -1.448 0.000) (pt -1.448 -2.718) (pt 3.988 2.718) (start 180.0) (sweep -180.0))
+      (pt 3.988 0)
+      (arc (pt 3.988 0.000) (pt -1.448 -2.718) (pt 3.988 2.718) (start 180.0) (sweep .0))
+      (pt -1.448 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.9 0)
+      (arc (pt -1.900 0.000) (pt -2.000 -0.050) (pt -1.900 0.050) (start 180.0) (sweep .0))
+      (pt -2 0)
+      (arc (pt -2.000 0.000) (pt -2.000 -0.050) (pt -1.900 0.050) (start 180.0) (sweep -180.0))
+      (pt -1.9 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 1.270 -1.270) (padstack 0))
+   (leg 3 (pt 2.540 0.000) (padstack 0))
+   (leg 4 (pt 1.270 1.270) (padstack 0))
+   (padstack 0
+    (hole 0.645)
+    (plated true)
+    (pad (layer TCOP) (round 1.183))
+    (pad (layer INNER) (round 1.183))
+    (pad (layer BCOP) (round 1.183))
+   )
+   (padstack 1
+    (hole 0.645)
+    (plated true)
+    (pad (layer TCOP) (square 1.183))
+    (pad (layer INNER) (round 1.183))
+    (pad (layer BCOP) (square 1.183))
+   )
+   (model "LM399AH#PBF.stp"
+    (euler 0 0 90)
+    (offset 1.2699999809265137 0 0.10000000149011612)
+   )
+  )
+ )
+)

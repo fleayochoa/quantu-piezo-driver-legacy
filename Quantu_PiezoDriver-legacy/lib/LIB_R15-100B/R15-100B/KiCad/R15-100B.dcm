@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R15-100B
+D Recom 5W Isolated DC-DC Converter, Vin 14  17 V dc, Vout 55  135V dc, I/O isolation 3000V dc
+K
+F https://recom-power.com/pdf/Innoline/Rxx-B.pdf
+$ENDCMP
+#
+#End Doc Library

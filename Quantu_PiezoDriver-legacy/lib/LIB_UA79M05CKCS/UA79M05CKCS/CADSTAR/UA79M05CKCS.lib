@@ -1,0 +1,16 @@
+.UA79M05CKCS :1 ;1.5-A, -25-V, Negative Linear Voltage Regulators
+TO254P470X1016X1965-3P
+*STM IC
+*NGS
+*PLB 1="COMMON" 2="INPUT" 3="OUTPUT"
+*MXP 3
+*DFN UA79M05CKCS
+~!Mouser Part Number (595-UA79M05CKCS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA79M05CKCS?qs=vxEfx8VrU7Bl9DiJ%2FviIGA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (UA79M05CKCS)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ua79m)
+~!Height (4.7mm)
+~!3D_Model (UA79M05CKCS)
+UA79M05CKCS
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8671ARMZ-REEL
+D Precision Low Noise, Low Input Bias Current, Single Op Amp
+K
+F https://www.analog.com/AD8671/datasheet
+$ENDCMP
+#
+#End Doc Library

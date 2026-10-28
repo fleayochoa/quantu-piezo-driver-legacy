@@ -1,0 +1,16 @@
+.AD8221ARMZ :1 ;Instrumentation Amplifiers Precision Instrumentation Amplifier
+SOP65P490X110-8N
+*STM IC
+*NGS
+*PLB 1="-IN" 2="RG_1" 3="RG_2" 4="+IN" 5="-VS" 6="REF" 7="VOUT" 8="+VS"
+*MXP 8
+*DFN AD8221ARMZ
+~!Mouser Part Number (584-AD8221ARMZ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8221ARMZ?qs=%2FtpEQrCGXCxTYonUPIPyhA%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (AD8221ARMZ)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/AD8221ARMZ.pdf)
+~!Height (1.1mm)
+~!3D_Model (AD8221ARMZ)
+AD8221ARMZ
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

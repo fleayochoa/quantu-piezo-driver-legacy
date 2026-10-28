@@ -1,0 +1,16 @@
+.OPA445AU :1 ;Operational Amplifiers - Op Amps Hi Voltage FET-Input Op Amp
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="OFFSET TRIM_1" 2="-IN" 3="+IN" 4="V-" 5="OFFSET TRIM_2" 6="OUTPUT" 7="V+" 8="NC"
+*MXP 8
+*DFN OPA445AU
+~!Mouser Part Number (595-OPA445AU)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA445AU?qs=wgAEGBTxy7lNjLIKPSQ4Sw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (OPA445AU)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/opa445.pdf)
+~!Height (1.75mm)
+~!3D_Model (OPA445AU)
+OPA445AU
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,0 +1,16 @@
+.LM399AH_PBF :1 ;V-Ref Precision 6.95V 10mA 4-Pin TO-46 Tray
+LM399AHPBF
+*STM IC
+*NGS
+*PLB 1="+_1" 2="-_1" 3="+_2" 4="-_2"
+*MXP 4
+*DFN LM399AH_PBF
+~!Mouser Part Number (584-LM399AH#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LM399AHPBF?qs=ytflclh7QUUM8sawX7U9qQ%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LM399AH#PBF)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/199399fc.pdf)
+~!Height (2.667mm)
+~!3D_Model (LM399AH#PBF)
+LM399AH_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 

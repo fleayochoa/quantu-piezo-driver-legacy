@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA445AU'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPA445AU" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "595-OPA445AU", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA445AU?qs=wgAEGBTxy7lNjLIKPSQ4Sw%3D%3D", "Operational Amplifiers - Op Amps Hi Voltage FET-Input Op Amp", "http://www.ti.com/lit/ds/symlink/opa445.pdf", "1.75 mm"
+END_PART
+
+END.

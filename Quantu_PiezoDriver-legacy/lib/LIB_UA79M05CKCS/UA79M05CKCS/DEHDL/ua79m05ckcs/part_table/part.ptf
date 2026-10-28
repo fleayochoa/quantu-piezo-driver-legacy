@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UA79M05CKCS'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "UA79M05CKCS" (!) = "", "TO254P470X1016X1965-3P", "Transistor Outline, Vertical", "595-UA79M05CKCS", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA79M05CKCS?qs=vxEfx8VrU7Bl9DiJ%2FviIGA%3D%3D", "1.5-A, -25-V, Negative Linear Voltage Regulators", "http://www.ti.com/lit/gpn/ua79m", "4.7 mm"
+END_PART
+
+END.

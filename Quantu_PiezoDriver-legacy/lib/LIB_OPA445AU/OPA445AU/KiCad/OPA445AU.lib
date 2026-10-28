@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model OPA445AU
+#/374984/1529213/2.50/8/3/Integrated Circuit
+DEF OPA445AU IC 0 30 Y Y 1 F N
+F0 "IC" 1850 300 50 H V L CNN
+F1 "OPA445AU" 1850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/opa445.pdf" 1850 0 50 H I L CNN
+F4 "Operational Amplifiers - Op Amps Hi Voltage FET-Input Op Amp" 1850 -100 50 H I L CNN "Description"
+F5 "1.75" 1850 -200 50 H I L CNN "Height"
+F6 "595-OPA445AU" 1850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA445AU?qs=wgAEGBTxy7lNjLIKPSQ4Sw%3D%3D" 1850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "OPA445AU" 1850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OFFSET_TRIM_1 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X NC 8 2000 0 200 L 50 50 0 0 N
+X V+ 7 2000 -100 200 L 50 50 0 0 P
+X OUTPUT 6 2000 -200 200 L 50 50 0 0 P
+X OFFSET_TRIM_2 5 2000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1800 100 1800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

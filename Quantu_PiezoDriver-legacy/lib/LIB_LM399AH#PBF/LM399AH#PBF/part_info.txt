@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LM399AH#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=2.4
+Released=2021-06-11 10:06:35
+Downloaded=2026-03-19 21:47:51
+3D=Y
