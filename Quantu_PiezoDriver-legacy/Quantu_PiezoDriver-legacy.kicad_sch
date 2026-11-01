@@ -6298,6 +6298,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 189.23) (xy 88.9 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e9157b-2ba8-42e1-9194-c1e2ddec8107")
+	)
+	(wire
+		(pts
 			(xy 228.6 33.02) (xy 222.25 33.02)
 		)
 		(stroke
@@ -6798,6 +6808,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 185.42) (xy 88.9 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a5f9d3-d7fd-4632-b294-83fb0a658053")
+	)
+	(wire
+		(pts
 			(xy 78.74 50.8) (xy 78.74 48.26)
 		)
 		(stroke
@@ -7025,16 +7045,6 @@
 			(type default)
 		)
 		(uuid "cde5a6c9-d604-4f1b-813a-fe6803d890c9")
-	)
-	(wire
-		(pts
-			(xy 88.9 185.42) (xy 88.9 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdee4460-5c3c-4520-80bd-7b8990cb21a3")
 	)
 	(wire
 		(pts
@@ -7415,6 +7425,16 @@
 			(type default)
 		)
 		(uuid "ee73a0aa-73a0-4892-b327-d7c0c4ffc2a6")
+	)
+	(wire
+		(pts
+			(xy 88.9 177.8) (xy 88.9 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5239ab-02f2-4c66-9828-ffac47bda22f")
 	)
 	(wire
 		(pts
@@ -10462,7 +10482,7 @@
 		(dnp no)
 		(uuid "29d59cdb-543a-4f33-942c-1f12cd3e6e8e")
 		(property "Reference" "RV3"
-			(at 84.074 185.928 90)
+			(at 85.852 190.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10471,7 +10491,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 72.136 183.134 90)
+			(at 85.852 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14496,7 +14516,7 @@
 		(dnp no)
 		(uuid "787f7bc6-880b-4e70-9740-f9be2b1377ee")
 		(property "Reference" "RV1"
-			(at 113.792 93.472 90)
+			(at 109.728 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14505,7 +14525,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 102.108 91.186 90)
+			(at 109.728 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15248,7 +15268,7 @@
 		(dnp no)
 		(uuid "7f66f6d4-f261-45bd-9a74-d117f396232b")
 		(property "Reference" "RV2"
-			(at 213.106 32.258 90)
+			(at 212.344 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15257,7 +15277,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 206.502 29.464 90)
+			(at 213.36 31.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
