@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "height": 0.5326,
+          "width": 1.454899
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -188,10 +188,14 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
         0.4,
         0.5,
         0.75,
-        1.0
+        1.0,
+        1.2,
+        1.3,
+        1.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -468,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Quantu_PiezoDriver-legacy.kicad_pro",
+    "filename": "QuAntu_PiezoDriver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -486,7 +490,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -501,7 +505,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.75,
+        "track_width": 0.3,
         "via_diameter": 1.6,
         "via_drill": 0.8
       }
